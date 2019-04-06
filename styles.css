@@ -68,6 +68,7 @@ hr {
     display: block;
     width: 50%;
     max-width: 2000px;
+    min-width: 300px;
     margin: 0 auto;
 }
 
@@ -115,5 +116,16 @@ hr {
     animation-fill-mode: forwards;
   }
 
+@media screen and (max-width: 750px) {
+    
+    #header-image {
+        background-image: url("./img/stevejobs-header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 30% top;
+        background-attachment: fixed;
+        opacity: 0.5;
+    }
+}
 
 
