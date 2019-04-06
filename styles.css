@@ -120,12 +120,11 @@ hr {
 @media screen and (max-width: 750px) {
     
     #header-image {
-        background-image: url("./img/stevejobs-header.jpg");
+        background-image: url("./img/steve-on-stage.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: 30% top;
-        background-attachment: fixed;
-        opacity: 0.5;
+        background-position: 50% top;
+        filter: grayscale(100%)
     }
 }
 
